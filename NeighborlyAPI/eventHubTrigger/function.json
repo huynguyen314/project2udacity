@@ -1,0 +1,12 @@
+{
+    "scriptFile": "__init__.py",
+    "bindings": [
+      {
+        "type": "eventGridTrigger",
+        "name": "event",
+        "direction": "in",
+        "eventHubName": "project2huyeventhubs", 
+        "connection": "Endpoint=sb://project2huyeventspace.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=bFeidC8OKGLt9ssSZ1Tut1SbAd1nRtEhL+AEhFhPydY=;EntityPath=project2huyeventhubs"
+      }
+    ]
+  }
